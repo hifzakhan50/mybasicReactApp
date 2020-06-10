@@ -39,5 +39,5 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run surge
-      run: surge ./build mybasicReactApp.surge.sh --token ${{ secrets.MY_TOKEN }}
+      run: surge ./build  voracious-horse.surge.sh --token ${{ secrets.MY_TOKEN }}
         
